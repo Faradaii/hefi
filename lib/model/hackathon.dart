@@ -3,7 +3,6 @@ class Hackathon {
  String deskripsi;
  DateTime periode;
  String hadiah;
- String socialMedia;
  String image;
 
  Hackathon(
@@ -11,6 +10,5 @@ class Hackathon {
      required this.deskripsi,
      required this.periode,
      required this.hadiah,
-     required this.socialMedia,
      required this.image});
 }
